@@ -1,0 +1,41 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+  }
+  
+  .contactName {
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .contactNumber {
+    color: #555555;
+  }
+  .deleteBtn{
+    background-color: #f48484;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  } 
+  .deleteBtn:hover{
+    background-color: #d93636;
+  }
+  .editBtn{
+    background-color: #e096d2;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .editBtn:hover{
+    background-color: #a33f87;
+  }

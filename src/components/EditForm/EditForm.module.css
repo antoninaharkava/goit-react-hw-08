@@ -1,0 +1,65 @@
+.form {
+    width: 400px;
+    height: 86px;
+    padding: 15px 20px;
+    border: 1px solid #e8beda;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  .button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .confirmBtn {
+    background-color: #38b168;
+  }
+  
+  .closeBtn {
+    background-color: #ed6366;
+  }
+  
+  .buttonIcon {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form .inputWrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    font-size: 18px;
+  }
+  
+  .form input {
+    border: 1px solid #e3a5d7;
+    background-color: transparent;
+    margin-bottom: 1px;
+    
+  }
+  
+  .errorMessage {
+    color: rgb(197, 90, 90);
+    position: absolute;
+    right: 5px;
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .form {
+      width: 300px;
+    }
+    .form input {
+      width: 150px;
+    }
+  }
